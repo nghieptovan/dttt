@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "ImportData.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/import-data",
+      "handler": "ImportData.importItems",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/get-current-processes",
+      "handler": "ImportData.getCurrentProcesses",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stop-process",
+      "handler": "ImportData.stopProcess",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

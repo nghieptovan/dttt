@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/royalties-editors",
+      "handler": "royalties-editor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/royalties-editors/count",
+      "handler": "royalties-editor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/royalties-editors/:id",
+      "handler": "royalties-editor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/royalties-editors",
+      "handler": "royalties-editor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/royalties-editors/:id",
+      "handler": "royalties-editor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/royalties-editors/:id",
+      "handler": "royalties-editor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

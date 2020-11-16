@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/posttypes",
+      "handler": "posttype.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posttypes/count",
+      "handler": "posttype.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posttypes/:id",
+      "handler": "posttype.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/posttypes",
+      "handler": "posttype.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/posttypes/:id",
+      "handler": "posttype.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/posttypes/:id",
+      "handler": "posttype.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"cats.role_rule_categories"}],"uuid":"0302dd02a4634ba7a036d572f71cb462"}

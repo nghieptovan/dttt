@@ -1,0 +1,13 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "uri": "mongodb://${process.env.DATABASE_USERNAME}:${process.env.DATABASE_PASSWORD}@${process.env.DATABASE_HOST}/${process.env.DATABASE_NAME}?replicaSet=${process.env.DATABASE_CLUSTERSET}"
+      },
+      "options": {
+      }
+    }
+  }
+}

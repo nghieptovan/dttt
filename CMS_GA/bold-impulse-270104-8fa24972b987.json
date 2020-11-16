@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bold-impulse-270104",
+  "private_key_id": "8fa24972b987f4e07daa1b99a16d3bec6981dbe4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDPJkWrrDdh/EBO\ndTnEabPm+hAIfgFPdmTQHTrS2O/cGqMGZcZ5s8AYpie2pvONklPY9paWLUpDzUKI\n1sQ+VEi8zlwL9HNIIO+DIAN5OT/tAjf4biKgNrjXcdK27FxWavhaIyvJn54jHd0M\n/VJqNFLBLC1N2EY5bV6MoWAg5YhG4fqtfqrKsXdPmWFSBjDX95EUxSei6gTP938A\nYDsJzyofeKe/ObPBIDLsDj3cxTZR50bR+OVcI/lH4hxl2P6z42QkXA6EPs3dUae/\neNOT8fTEa47VNjEyJYZkiap/7L1pPcDvwVjZX90arvfTq7yDpKLNYrFxHXbdXz1H\nRZ1jOHsFAgMBAAECggEARFozmQ8Ng0aSDZF+y0G5vBh9W+AAHLFLWKSceWBd3Tno\n2z6P/C6Ez11cM1fpe6hyBGBxlgJBxBehwbdkL9Dt42cQVl2GAKHlhlX073YlktYt\nk8r7n/QOkACd8AAUA+vuIQgD9da2fo3nF9cq76JuQBGMrWgU2/Qrw6moJ5K1ofVs\nVb7pXb97DbfWB0opAinFPaKz7oKBjSB3ziBwBR7Nd9xjb+QxTYx6JxhOVPx8ZS23\nhCZc3bJitSJNvDxxemDVGmdYaVn4X2oWSHeFUAySIHD969f+gclRvW2adZtQfi4A\nMSp+lMCM25wMB9h9fylYzbrl5t1VARIS+XyDzsuJLQKBgQD/GqrFDazvl/9g6u5w\n8y7TcTsTn4UkreoocRVkR5YWV6w2+/slAsyIi+n3Ddgfoo3Hq3HgCgXyN8b7ATPU\noNa5jU4v9EADcWT/uKmlyLJgzQOb7J1gIzQrOUBJDGAD1BGxWA3pDun/94iCllJz\necAZkLlQWDXKIWe3JvSIWGGaGwKBgQDP4H6yaYNg1p5rkm4U6VUl9rDyrKymRcF3\n3YEOTvsM2+/eWFmqJt9DuF2yyt4n/AYi04sd2UU+GqpcnO73ffrVGRpQP3Go2BKE\nseuUynrxuXSik6vJ/lwPGaHEAGEHdcWAqyqjVMyqbr/xn9YFFHdOTkS8VjM9PN8f\n/evNp5WRXwKBgQDepPmSDgN3AOPERIZiUfv2UobK85iSkK8jKL8QzGGzkkUdoAJr\nJOw56FMEajLMOWUgdQNoE5do9UFW5I/F7bI6M5efxr7vwlHx1ctKg8UbMxMJTRN1\nSoRHjSoMFx7deIMQktdhJsEXw4SC5IuFeSctqN/zvWkExu7sLLWTIf/dLQKBgQCs\n9exVBCe07j234YlISvB2+vA1qmionAeidSHJRvvpsiG9zaMlSNyhWwhTGCqJ+E8e\nsQbiWgIb71HqZwUJ1b9biVx0gqVOSCH4WJVcIrDy6UzbbKUWF1Z/leMb0vjonRws\nt75tUcRM1oNMRqJrbaDq/YKBdfOCM2CvHLYTUinHXwKBgQCoxsoIKMbTrdgFgvst\nL3CRQvgK7TZOnLAS6a95SaKnGsfHCwxnpmfdEZ14+QAvdNNOsAHWAzvuVSvdliRB\nfrClP/3fPxOqnWj+KqyWgOz8G1h+l//vEcOfRj4YiOxTSi5vjcLhytONtiS9GD4v\nPLzp7cn81iwt9UD9blWVv1FDSA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-for-analyst@bold-impulse-270104.iam.gserviceaccount.com",
+  "client_id": "104494601996356663698",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-for-analyst%40bold-impulse-270104.iam.gserviceaccount.com"
+}

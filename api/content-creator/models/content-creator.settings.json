@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "contentcreator",
+  "info": {
+    "name": "Content Creator"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": false
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
+    },
+    "content_creator_type": {
+      "model": "content-creator-type"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "increment_id": {
+      "type": "biginteger",
+      "unique": true
+    }
+  }
+}

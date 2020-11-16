@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "rolerule",
+  "info": {
+    "name": "rolerule"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "roles": {
+      "plugin": "users-permissions",
+      "collection": "role"
+    },
+    "rules": {
+      "columnName": "name",
+      "collection": "rule"
+    },
+    "description": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    }
+  }
+}

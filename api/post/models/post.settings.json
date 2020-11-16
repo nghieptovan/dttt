@@ -1,0 +1,184 @@
+{
+  "connection": "default",
+  "collectionName": "posts",
+  "info": {
+    "name": "post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "sourcename": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "img_ver": {
+      "type": "string"
+    },
+    "title_google": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "description_google": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "category"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "posttype": {
+      "model": "posttype"
+    },
+    "scheduleAt": {
+      "type": "datetime"
+    },
+    "increment_id": {
+      "type": "biginteger",
+      "unique": true
+    },
+    "content_creators": {
+      "collection": "content-creator"
+    },
+    "publisher": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "tags": {
+      "collection": "tag"
+    },
+    "img_hor": {
+      "type": "string"
+    },
+    "primary_category": {
+      "model": "category"
+    },
+    "contentdesigner": {
+      "model": "contentdesigner"
+    },
+    "contentpenname": {
+      "model": "contentpenname"
+    },
+    "contentphoto": {
+      "model": "contentphoto"
+    },
+    "contentsource": {
+      "model": "contentsource"
+    },
+    "contentvideo": {
+      "model": "contentvideo"
+    },
+    "series": {
+      "model": "tag"
+    },
+    "royalties_photographer": {
+      "model": "royalties-photographer"
+    },
+    "royalties_editor": {
+      "model": "royalties-editor"
+    },
+    "editing": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "start_editing": {
+      "type": "datetime"
+    },
+    "editing_status": {
+      "type": "boolean"
+    },
+    "post_url": {
+      "type": "string"
+    },
+    "media": {
+      "collection": "media",
+      "via": "post"
+    },
+    "publishedAt": {
+      "type": "datetime"
+    },
+    "royalties_editor_value": {
+      "model": "royalties-list"
+    },
+    "royalties_photo_value": {
+      "model": "royalties-list"
+    },
+    "title_search": {
+      "type": "string"
+    },
+    "is_pr": {
+      "type": "boolean",
+      "default": false
+    },
+    "editor_type": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "mini",
+        "special",
+        "video"
+      ]
+    },
+    "tmp_id": {
+      "type": "string"
+    },
+    "cover_pc": {
+      "type": "string"
+    },
+    "cover_m": {
+      "type": "string"
+    },
+    "post_ads": {
+      "type": "boolean",
+      "default": true
+    },
+    "post_ia": {
+      "type": "boolean",
+      "default": true
+    },
+    "modifiedAt": {
+      "type": "datetime"
+    },
+    "content_background": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "pr_type": {
+      "type": "string",
+      "default": "0"
+    },
+    "content_image": {
+      "type": "string"
+    },
+    "have_video": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_live": {
+      "type": "boolean",
+      "default": false
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "log_action": {
+      "type": "text"
+    }
+  }
+}

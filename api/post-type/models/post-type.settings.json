@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Post Type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "status_code": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "posttype"
+}

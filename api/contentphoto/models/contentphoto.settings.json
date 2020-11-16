@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "contentphoto",
+  "info": {
+    "name": "contentphoto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "increment_id": {
+      "type": "biginteger"
+    },
+    "label": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

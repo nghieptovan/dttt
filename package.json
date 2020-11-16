@@ -1,0 +1,63 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "content-type-parser": "1.0.2",
+    "cross-fetch": "^3.0.4",
+    "csv-parse": "4.8.2",
+    "csv-parser": "^2.3.2",
+    "dotenv": "^8.2.0",
+    "find-config": "^1.0.0",
+    "get-urls": "9.2.0",
+    "googleapis": "^47.0.0",
+    "image-to-base64": "^2.0.1",
+    "knex": "<0.20.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "rss-parser": "3.7.3",
+    "simple-statistics": "7.0.7",
+    "slug": "^2.1.1",
+    "slugify": "^1.4.0",
+    "socket.io": "^2.3.0",
+    "socket.io-redis": "^5.3.0",
+    "sqlite3": "latest",
+    "strapi": "^3.0.0-beta.18",
+    "strapi-admin": "^3.0.0-beta.18",
+    "strapi-connector-bookshelf": "^3.0.0-beta.18",
+    "strapi-connector-mongoose": "^3.0.0-beta.18",
+    "strapi-hook-mongoose": "^3.0.0-beta.17.8",
+    "strapi-plugin-content-manager": "^3.0.0-beta.18",
+    "strapi-plugin-content-type-builder": "^3.0.0-beta.18",
+    "strapi-plugin-documentation": "^3.0.0-beta.18",
+    "strapi-plugin-email": "^3.0.0-beta.18",
+    "strapi-plugin-upload": "^3.0.0-beta.18",
+    "strapi-plugin-users-permissions": "^3.0.0-beta.18",
+    "strapi-provider-upload-aws-s3": "^3.0.0-beta.18.4",
+    "strapi-provider-upload-aws-s3-custom-domain": "file:providers/strapi-provider-upload-aws-s3-custom-domain",
+    "strapi-utils": "^3.0.0-beta.18",
+    "striptags": "3.1.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b7128931-5b6c-4f58-a1e3-be6af0613602"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

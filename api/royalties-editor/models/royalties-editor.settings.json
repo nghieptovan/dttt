@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "royalties_editors",
+  "info": {
+    "name": "Royalties Editor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "increment_id": {
+      "type": "biginteger",
+      "default": "0"
+    }
+  }
+}

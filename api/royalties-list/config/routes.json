@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/royalties-lists",
+      "handler": "royalties-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/royalties-lists/count",
+      "handler": "royalties-list.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/royalties-lists/:id",
+      "handler": "royalties-list.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/royalties-lists",
+      "handler": "royalties-list.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/royalties-lists/:id",
+      "handler": "royalties-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/royalties-lists/:id",
+      "handler": "royalties-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

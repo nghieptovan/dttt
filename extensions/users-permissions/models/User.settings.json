@@ -1,0 +1,133 @@
+{
+  "connection": "default",
+  "collectionName": "users-permissions_user",
+  "info": {
+    "name": "user",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "unique": true,
+      "configurable": false,
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "minLength": 6,
+      "configurable": false,
+      "required": true
+    },
+    "provider": {
+      "type": "string",
+      "configurable": false
+    },
+    "password": {
+      "type": "password",
+      "minLength": 6,
+      "configurable": false,
+      "private": true
+    },
+    "resetPasswordToken": {
+      "type": "string",
+      "configurable": false,
+      "private": true
+    },
+    "confirmed": {
+      "type": "boolean",
+      "default": false,
+      "configurable": false
+    },
+    "blocked": {
+      "type": "boolean",
+      "default": false,
+      "configurable": false
+    },
+    "role": {
+      "model": "role",
+      "via": "users",
+      "plugin": "users-permissions",
+      "configurable": false
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "category"
+    },
+    "increment_id": {
+      "type": "integer"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "can_publish": {
+      "type": "boolean",
+      "default": false
+    },
+    "can_pr": {
+      "type": "boolean",
+      "default": false
+    },
+    "can_homepage": {
+      "type": "boolean"
+    },
+    "can_view_royalties": {
+      "type": "boolean",
+      "default": false
+    },
+    "can_set_royalties": {
+      "type": "boolean",
+      "default": false
+    },
+    "can_read_other": {
+      "type": "boolean",
+      "default": false
+    },
+    "can_edit_other": {
+      "type": "boolean",
+      "default": false
+    },
+    "can_edit_publish": {
+      "type": "boolean",
+      "default": false
+    },
+    "can_takedown": {
+      "type": "boolean"
+    },
+    "can_trash": {
+      "type": "boolean"
+    },
+    "can_view_ga": {
+      "type": "boolean",
+      "default": false
+    },
+    "primary_category": {
+      "model": "category"
+    },
+    "contentpennames": {
+      "collection": "contentpenname"
+    },
+    "royalties_editors": {
+      "collection": "royalties-editor"
+    },
+    "no_banword": {
+      "type": "boolean",
+      "default": false
+    },
+    "last_login": {
+      "type": "datetime"
+    },
+    "can_live": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

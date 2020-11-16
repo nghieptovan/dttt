@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "royalties_lists",
+  "info": {
+    "name": "Royalties List"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "value": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "connection": "default",
+  "collectionName": "category",
+  "info": {
+    "name": "category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
+    },
+    "is_root_category": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "increment_id": {
+      "type": "biginteger"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "category"
+    },
+    "category": {
+      "model": "category",
+      "via": "categories"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "replace_image": {
+      "type": "string"
+    },
+    "banner_top": {
+      "type": "string"
+    },
+    "banner_sidebar": {
+      "type": "string"
+    },
+    "banner_endpost": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "tags",
+  "info": {
+    "name": "tag"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
+    },
+    "increment_id": {
+      "type": "biginteger",
+      "unique": false
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "replace_image": {
+      "type": "string"
+    },
+    "banner_top": {
+      "type": "string"
+    },
+    "banner_sidebar": {
+      "type": "string"
+    },
+    "banner_endpost": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

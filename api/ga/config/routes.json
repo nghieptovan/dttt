@@ -1,0 +1,27 @@
+{
+  "routes": [{
+      "method": "GET",
+      "path": "/ga1",
+      "handler": "ga.dashboard1",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ga2",
+      "handler": "ga.dashboard2",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/view-by-id",
+      "handler": "ga.viewByID",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

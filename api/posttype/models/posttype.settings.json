@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "poststatus",
+  "info": {
+    "name": "Post Status"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type_code": {
+      "type": "string",
+      "default": "waiting"
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

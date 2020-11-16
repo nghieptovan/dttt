@@ -1,0 +1,29 @@
+stages:
+  # - test
+  # - build
+  - deploy
+
+# test:
+#   stage: test
+#   script: echo "Running tests"
+
+# build:
+#   stage: build
+#   script: echo "Building the app"
+
+deploy-production:
+   stage: deploy
+   before_script:
+     - whoami
+     - cd /home/saostar/saostar-api/
+     - git reset --hard HEAD
+     - git pull origin master
+     - yarn install
+   script:
+     - yarn build
+     - pm2 reload ecosystem.config.js --env production
+   environment:
+     name: production strapi api cms
+     url: "https://api-cms.saostar.vn"
+   only:
+     - master

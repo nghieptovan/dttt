@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "rule",
+  "info": {
+    "name": "rule"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rule_code": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    }
+  }
+}

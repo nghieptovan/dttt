@@ -1,0 +1,140 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/posts",
+      "handler": "post.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/public/posts",
+      "handler": "post.getListPublic",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/public/posts-facebook-ia",
+      "handler": "post.getListPublicFacebookIA",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/public/posts/:id",
+      "handler": "post.getDetailPublic",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/public/checkurl",
+      "handler": "post.checkUrlPublic",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posts/count",
+      "handler": "post.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posts/rolyalties",
+      "handler": "post.rolyalties",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posts/clearlock",
+      "handler": "post.clearlock",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posts/checkSchedule",
+      "handler": "post.checkSchedule",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posts/getlists",
+      "handler": "post.getlists",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posts/checkedit",
+      "handler": "post.checkedit",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posts/:id",
+      "handler": "post.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posts/get-detail/:id",
+      "handler": "post.getDetailPost",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/posts",
+      "handler": "post.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/posts/:id",
+      "handler": "post.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/posts/lock/:id",
+      "handler": "post.updatelock",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/posts/:id",
+      "handler": "post.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

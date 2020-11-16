@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "contentdesigner",
+  "info": {
+    "name": "contentdesigner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "increment_id": {
+      "type": "biginteger"
+    },
+    "label": {
+      "type": "string",
+      "unique": true
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

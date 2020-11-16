@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "configuration",
+  "info": {
+    "name": "configuration"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

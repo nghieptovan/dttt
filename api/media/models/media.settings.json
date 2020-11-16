@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "media",
+  "info": {
+    "name": "Media"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "media_type": {
+      "model": "media-type"
+    },
+    "file": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "fileName": {
+      "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "post": {
+      "via": "media",
+      "model": "post"
+    },
+    "isPublic": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

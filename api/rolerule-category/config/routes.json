@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rolerule-categories",
+      "handler": "rolerule-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rolerule-categories/count",
+      "handler": "rolerule-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rolerule-categories/:id",
+      "handler": "rolerule-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rolerule-categories",
+      "handler": "rolerule-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rolerule-categories/:id",
+      "handler": "rolerule-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rolerule-categories/:id",
+      "handler": "rolerule-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

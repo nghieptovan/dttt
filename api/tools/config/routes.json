@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/tools/import",
+      "handler": "tools.importCSV",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tools/import-users",
+      "handler": "tools.importUsers",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tools/import-posts",
+      "handler": "tools.importPosts",
+      "config": {
+        "policies": []
+      }
+    }    
+  ]
+}

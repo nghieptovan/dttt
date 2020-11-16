@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/role-rules",
+      "handler": "role-rule.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/role-rules/count",
+      "handler": "role-rule.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/role-rules/:id",
+      "handler": "role-rule.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/role-rules",
+      "handler": "role-rule.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/role-rules/:id",
+      "handler": "role-rule.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/role-rules/:id",
+      "handler": "role-rule.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

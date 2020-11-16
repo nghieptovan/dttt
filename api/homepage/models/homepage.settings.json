@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "increment_id": {
+      "type": "biginteger"
+    },
+    "post": {
+      "model": "post"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

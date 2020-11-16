@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/royalties-photographers",
+      "handler": "royalties-photographer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/royalties-photographers/count",
+      "handler": "royalties-photographer.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/royalties-photographers/:id",
+      "handler": "royalties-photographer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/royalties-photographers",
+      "handler": "royalties-photographer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/royalties-photographers/:id",
+      "handler": "royalties-photographer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/royalties-photographers/:id",
+      "handler": "royalties-photographer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "contencreatortype",
+  "info": {
+    "name": "Content Creator Type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

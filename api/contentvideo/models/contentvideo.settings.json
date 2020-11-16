@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "contentvideos",
+  "info": {
+    "name": "contentvideo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "increment_id": {
+      "type": "biginteger"
+    },
+    "label": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
